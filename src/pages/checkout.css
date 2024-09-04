@@ -1,0 +1,56 @@
+.Checkout {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.address-section,
+.new-address-section,
+.new-address-form {
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  position: relative; /* Tambahkan ini agar elemen di dalamnya bisa diatur posisinya relatif terhadap parent */
+}
+
+button {
+  background-color: #ff6680;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff4f60;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Tambahkan styling khusus untuk tombol close */
+.CloseButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent; /* Tidak ada latar belakang */
+  border: none;
+  font-size: 12px; /* Ukuran font lebih kecil */
+  cursor: pointer;
+  z-index: 1000; /* Tetap di depan elemen lain */
+  color: #333; /* Warna teks, bisa disesuaikan */
+}
+

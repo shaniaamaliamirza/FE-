@@ -1,0 +1,17 @@
+.mobile-view .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .mobile-view .menu-icon {
+    display: block;
+  }
+  
+  .mobile-view .dropdown-content {
+    display: none;
+  }
+  
+  .mobile-view .dropdown-content.block {
+    display: block;
+  }
+  

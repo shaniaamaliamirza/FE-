@@ -1,0 +1,8 @@
+.carousel {
+    width: 100%; /* Pastikan carousel mengambil 100% lebar container */
+  }
+  
+  .card {
+    max-width: 100%; /* Memastikan card juga mengambil lebar penuh */
+  }
+  

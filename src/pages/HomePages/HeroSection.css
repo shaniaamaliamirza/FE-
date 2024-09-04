@@ -1,0 +1,32 @@
+.hero {
+    background-image: url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: left;
+    color: black;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+    }
+  
+    .hero h1 {
+      font-size: 32px;
+    }
+  
+    .hero p {
+      font-size: 18px;
+    }
+  }
+  
